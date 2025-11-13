@@ -16,7 +16,10 @@
 4. super prosím jenom zmenši obrázky aby bylo vidět tlačítko s odkazy a přidej odkazy na sekce způsoby a důvody ještě do té sekce úvod
 - zmenšení obrázků dodání pár tlačítek do sekce úvod
 
+
 5. tak super s index.html stránkou jsem spokojený. Nyní je čas upravit stránky způsoby a důvody. Do navbaru bych možná dal tak akorát ten úvod ať se můžeme vrátit na hlavní stránku a jinak bych to rozvedl jak můžeme cestovat třeba aji jakože přes erasmus nebo cestovky a zase bych to rozdělil na sekce doprava a možnosti, v dopravě bude způsob jakým se na místo dostaneme (auto, vlak...) a možnosti (na vlastní ruku, cestovka, erasmus, dobrovolnictví, za někým,...) a do důvodů bych dal něco jako výhody (poznání nové kultury, lidí, řeč, zvyky, příroda, sporty,...) nevýhody (daleko od kamarádů, rodiny, práce, finance)
 - doplnění stránek způsoby a důvody přidání odkazů 
 
 ## proběhlo ještě pár úprav stránek se kterou jsem spokojený
+### finální stránka vypadá takto
+![final](img/final.png)
