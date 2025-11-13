@@ -1,0 +1,139 @@
+/* Globální nastavení */
+html {
+  scroll-behavior: smooth; /* plynulé sjíždění mezi sekcemi */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #dbe6d2, #f4f1e1); /* přírodní přechod zeleno-béžový */
+  color: #2f3e2f;
+}
+
+/* Navbar vlevo */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100%;
+  background-color: #6b8e23;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 15px 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Obsah vedle navbaru */
+main {
+  margin-left: 240px;
+}
+
+/* Full-page sekce */
+section {
+  min-height: 100vh; /* celá výška obrazovky */
+  padding: 60px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertikální centrování obsahu */
+  transition: background-color 1s ease; /* jemná animace změny barvy */
+}
+
+section:nth-child(odd) {
+  background-color: rgba(255,255,255,0.6);
+}
+
+section:nth-child(even) {
+  background-color: rgba(210, 230, 200, 0.6);
+}
+
+section h2 {
+  color: #2f3e2f;
+}
+
+img {
+  max-width: 500px;   /* zmenšený obrázek */
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  align-self: center;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.links .btn {
+  margin: 0 10px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #6b8e23;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #556b2f;
+  transform: scale(1.05); /* jemné zvětšení při hoveru */
+}
+
+footer {
+  margin-left: 240px;
+  background-color: #8b5e3c;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+ul {
+  list-style-position: inside; /* tečky blíž k textu */
+  text-align: left;            /* text zarovnaný k tečkám */
+  display: inline-block;       /* aby seznam nebyl přes celou šířku */
+}
+.readme-link {
+  margin-top: auto; /* posune se na spodek */
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+.readme-link a {
+  color: #f4f1e1;
+  text-decoration: none;
+}
+
+.readme-link a:hover {
+  text-decoration: underline;
+}
